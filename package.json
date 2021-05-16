@@ -1,0 +1,17 @@
+{
+  "name": "hydrasynth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "HYDRASYNTH.control.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc -p tsconfig.json",
+    "watch": "npx tsc -p tsconfig.json --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typed-bitwig-api": "^6.0.0",
+    "typescript": "^4.2.4"
+  }
+}
