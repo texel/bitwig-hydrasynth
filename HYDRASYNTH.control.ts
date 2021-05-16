@@ -43,11 +43,12 @@ function init() {
       MidiFilters.PitchBend
     );
 
-  noteInput.setUseExpressiveMidi(true, 0, 48);
+  // noteInput.setUseExpressiveMidi(true, 0, 48);
+  noteInput.setShouldConsumeEvents(false);
 }
 
 function onMidi(status: number, data1: number, data2: number) {
-  // printMidi(status, data1, data2);
+  printMidi(status, data1, data2);
 }
 
 function exit() {}
